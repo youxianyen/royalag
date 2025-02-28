@@ -1,0 +1,15 @@
+.page-wrap .top-bar-section {
+    display: none;
+}
+
+.page-wrap .site-header {
+    display: none;
+}
+
+.page-wrap .main-menu {
+    display: none;
+}
+
+#colophon {
+    display: none;
+}

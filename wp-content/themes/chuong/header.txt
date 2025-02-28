@@ -1,0 +1,15 @@
+<?php
+
+echo wp_nav_menu(
+array(
+    'container' => 'div',
+    'container_class' => 'collapse navbar-collapse',
+    'container_id' => 'collapsiblewavbar',
+    'theme_location' => 'PrinaryMenu',
+    'items_wrap' => '<ul class="navbar-nav">navbar-nav</ul>',
+);
+);
+
+
+
+?>

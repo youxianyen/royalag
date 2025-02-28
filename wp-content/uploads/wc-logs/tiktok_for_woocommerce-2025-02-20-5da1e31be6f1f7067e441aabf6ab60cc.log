@@ -1,0 +1,28 @@
+2025-02-20T03:55:28+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_67b6a7b0475b6httpswwwroyalagarcomwp-admin","smb_name":"PROD","redirect_url":"https:\/\/www.royalagar.com\/wp-admin\/"}
+ ajax: no
+2025-02-20T03:55:28+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 202502200355278F4EBA988331C11D73B8,202502200355278F4EBA988331C11D73B8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01a46044fcf605eaaea3a7e2ee0f5fa0c060a60b67efc719df59cdc1f9c366f4828255ec2e2aa778d83996247750f151e438ac8760e91cc72b34184981f1ead77244577b0bc8aa147d3a734d0445007b72b8abc3a373be50836d96588841d67e6683e700889717219d82c7628c80895e02
+x-tt-trace-id: 00-2502200355278F4EBA988331C11D73B8-0EC7456363CD4340-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 204
+X-Origin-Response-Time: 92,184.50.95.209
+X-Akamai-Request-ID: 45e3ee2.db8716f4
+Date: Thu, 20 Feb 2025 03:55:28 GMT
+X-Cache: TCP_MISS from a23-213-160-220.deploy.akamaitechnologies.com (AkamaiGHost/11.8.2-cebd4885bf42ba1e815e293c69ad1d4a) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a184-50-95-209.deploy.akamaitechnologies.com (AkamaiGHost/11.8.2-cebd4885bf42ba1e815e293c69ad1d4a) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=178, origin; dur=92
+Server-Timing: inner; dur=69
+X-Parent-Response-Time: 259,23.213.160.220
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"https:\/\/www.royalagar.com\/wp-admin\/","external_data_key":"af591007-2c9c-4f24-acc3-e26f9a47de2e","app_secret":"69184499baadd4b0fd2c3eb44cf362b08a409624","app_id":"7473345008259596296"}}

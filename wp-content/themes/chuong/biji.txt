@@ -1,0 +1,28 @@
+
+导航栏获取
+参数可以是字符串，也可以是数组
+$args = [
+    'show_option_all' => '', //是否列出分类链接
+    'orderby' => 'name', //按名称排列
+    'order' => 'ASC', //升，降序
+    'style' => 'list', //是否用列表
+    'show_count' => 0, //是否显示文章数量
+    'hide_empty' => 1, //是否显示无日志分类
+    'use_desc_for_title' => 1, //是否显示分类描述
+    'child_of' => 0, //是否限制子分类
+    'exclude' => '', //排除分类的ID,多个用'（英文逗号分隔）
+    'exclude_tree' => '',//排除分类树，
+    'include' => '', //包括的分类
+    'title_li' => __('Categories'),//列表标题的名称
+    'show_option_none' => 'No categories',//无分类时显示的标题
+    'number' => null, //显示分类的数量
+    'echo' => 1, //是否显示，显示或者返回字符串
+    'hierarchical' => true, //是否将子、父分类分级
+    'depth' => 0, //层级限制
+    'current_category' => 0, //指定分类ID，在前台页面链接添加current-cat的css类，方便修改样式
+    'pad_counts' => 0, //计算包括子分类的链接或文章数
+    'taxonomy' => 'category', //使用的分类法,
+    'walker' => null, //生成列表Walker类
+
+];
+
